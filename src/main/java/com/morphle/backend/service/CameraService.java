@@ -39,7 +39,7 @@ public class CameraService {
                     }
                 }
                 try {
-                    Thread.sleep(100); // Adjust this as needed for the desired checking frequency
+                    Thread.sleep(100); // Adjust this as needed for the desired checking frequency, ideally it should be 0
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                     break;
